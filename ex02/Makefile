@@ -5,7 +5,6 @@ FLAGS = -Wall -Wextra -Werror -std=c++98 -pedantic -g3 #-fsanitize=address
 CC = c++
 
 SRC_FILES = main.cpp \
-			Span.cpp
 			
 OBJS = $(SRC_FILES:.cpp=.o)
 
